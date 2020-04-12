@@ -16,6 +16,11 @@ public class AlgumaLex {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        AlgumaLexico lex = new AlgumaLexico(args[0]);
+        Token t = null;
+        while((t = lex.proximoToken()) != null) {
+            System.out.print(t);
+        }
     }
     
 }
