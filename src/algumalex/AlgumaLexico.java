@@ -44,11 +44,14 @@ public class AlgumaLexico {
             }
             else if(c == '<') {
                 c = (char)ldat.lerProximoCaractere();
-                if(c == '>')
+                if(c == '>') 
                     return new Token(TipoToken.OpRelDif,"<>");
                 else if(c == '=')
                     return new Token(TipoToken.OpRelMenorIgual,"<=");
-                else return new Token(TipoToken.OpRelMenor,"<");
+                else {
+                    ldat.retroceder();
+                    return new Token(TipoToken.OpRelMenor,"<");
+                }
             }
             
         }
