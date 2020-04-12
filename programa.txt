@@ -1,5 +1,5 @@
 :DECLARACOES
-ar@gumento:INT
+argumento:INT
 fatorial:INT
 
 :ALGORITMO

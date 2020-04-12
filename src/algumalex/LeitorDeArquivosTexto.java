@@ -85,7 +85,7 @@ public class LeitorDeArquivosTexto {
     }
     private int lerCaractereDoBuffer() {
         int ret = bufferDeLeitura[ponteiro];
-        System.out.println(this);
+        //System.out.println(this);
         incrementarPonteiro();
         return ret;
     }
