@@ -260,7 +260,7 @@ public class AlgumaLexico {
                     return new Token(TipoToken.PCDeclaracoes, lexema);
                 } else if (lexema.equals("ALGORITMO")) {
                     return new Token(TipoToken.PCAlgoritmo, lexema);
-                } else if (lexema.equals("INT")) {
+                } else if (lexema.equals("INTEIRO")) {
                     return new Token(TipoToken.PCInteiro, lexema);
                 } else if (lexema.equals("REAL")) {
                     return new Token(TipoToken.PCReal, lexema);
@@ -276,7 +276,10 @@ public class AlgumaLexico {
                     return new Token(TipoToken.PCSe, lexema);
                 } else if (lexema.equals("ENTAO")) {
                     return new Token(TipoToken.PCEntao, lexema);
-                } else if (lexema.equals("ENQUANTO")) {
+                }else if (lexema.equals("SENAO")) {
+                    return new Token(TipoToken.PCSenao, lexema);
+                }
+                else if (lexema.equals("ENQUANTO")) {
                     return new Token(TipoToken.PCEnquanto, lexema);
                 } else if (lexema.equals("INICIO")) {
                     return new Token(TipoToken.PCInicio, lexema);
