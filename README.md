@@ -42,4 +42,4 @@ ENQUANTO argumento <1000
    FIM
 IMPRIMIR fatorial
 
-´´´
+```
