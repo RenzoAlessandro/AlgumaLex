@@ -43,6 +43,3 @@ ENQUANTO argumento <1000
 IMPRIMIR fatorial
 
 ´´´
-
-UTILIZANDO JAVA
-
