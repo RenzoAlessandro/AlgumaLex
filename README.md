@@ -44,3 +44,4 @@ IMPRIMIR fatorial
 ´´´
 
 UTILIZANDO JAVA
+<img src= "imgAlgumalex.PNG">
