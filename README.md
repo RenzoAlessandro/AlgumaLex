@@ -23,7 +23,7 @@ As desvantagens da Análise Léxica são o tratamento de dados em branco, format
 
 
 #### IMPLEMENTAÇÃO DE UM ANALISADOR LÉXICO UTILIZANDO LINGUAGEM ALGUMA
-
+<img src= "imgAlgumalex.PNG">
 ```
 :DECLARACOES
 argumento:INT
@@ -44,4 +44,4 @@ IMPRIMIR fatorial
 ´´´
 
 UTILIZANDO JAVA
-<img src= "imgAlgumalex.PNG">
+
