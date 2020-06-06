@@ -22,8 +22,9 @@ A análise léxica escreve um parser muito mais fácil. Em vez de ter que acumul
 As desvantagens da Análise Léxica são o tratamento de dados em branco, formato fixo de entrada e a inexistência de palavras reservadas, em determinadas linguagens.
 
 
-#### IMPLEMENTAÇÃO DE UM ANALISADOR LÉXICO UTILIZANDO LINGUAGEM ALGUMA
 <img src= "imgAlgumalex.PNG">
+
+#### IMPLEMENTAÇÃO DE UM ANALISADOR LÉXICO UTILIZANDO LINGUAGEM ALGUMA
 ```
 :DECLARACOES
 argumento:INT
